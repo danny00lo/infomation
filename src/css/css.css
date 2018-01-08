@@ -1,0 +1,86 @@
+body {
+  background: #282c5a;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; }
+
+.main {
+  background: #22244a;
+  width: 90%;
+  margin: 0.2666666667rem auto;
+  border-radius: 0.1333333333rem; }
+  .main .topTitle {
+    color: #e2e2e7;
+    text-align: center;
+    padding: 0.2666666667rem 0;
+    font-size: 15px; }
+  .main .line {
+    width: 90%;
+    margin: 0 auto 0.2666666667rem auto;
+    height: 0.0133333333rem;
+    background: #1f2144; }
+  .main .sameStyle {
+    width: 90%;
+    margin: 0 auto; }
+    .main .sameStyle .title {
+      margin-top: 0.56rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .main .sameStyle .title .box {
+        background: #314efc;
+        width: 0.1066666667rem;
+        height: 0.4533333333rem; }
+      .main .sameStyle .title .word {
+        margin-left: 0.2666666667rem;
+        color: #c4c4ce; }
+    .main .sameStyle .secTitle {
+      margin-top: 0.6666666667rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      .main .sameStyle .secTitle .box {
+        width: 0.6666666667rem;
+        height: 0.0266666667rem;
+        background: #818cf9; }
+      .main .sameStyle .secTitle .word {
+        margin-left: 0.08rem;
+        color: #818cf9; }
+    .main .sameStyle .content {
+      margin-top: 0.6rem;
+      color: #898a9e; }
+      .main .sameStyle .content .points {
+        font-size: 13px;
+        color: #d1d1d9;
+        margin-top: 0.32rem; }
+      .main .sameStyle .content .normal {
+        margin-top: 0.3333333333rem;
+        color: #898a9e; }
+      .main .sameStyle .content .other {
+        margin-top: 0.3333333333rem;
+        color: #e2e2e7; }
+      .main .sameStyle .content .prize {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style: none;
+        -webkit-margin-before: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        -webkit-padding-start: 0; }
+        .main .sameStyle .content .prize li {
+          list-style: none;
+          width: 50%; }
+          .main .sameStyle .content .prize li p {
+            color: #999aab;
+            margin-top: 0.16rem;
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+            -webkit-margin-start: 0;
+            -webkit-margin-end: 0; }
+  .main footer {
+    padding: 1.3333333333rem 0;
+    width: 90%;
+    margin: 0 auto;
+    color: #e8e8ec; }
+
+/*# sourceMappingURL=css.css.map */

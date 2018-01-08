@@ -1,0 +1,104 @@
+body{
+  background: #282c5a;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.main{
+  background: #22244a;
+  width: 90%;
+  margin: (20rem)/75 auto;
+  border-radius: (10rem)/75;
+  .topTitle{
+    color: #e2e2e7;
+    text-align: center;
+    padding: (20rem)/75 0;
+    font-size: 15px;
+  }
+  .line{
+    width: 90%;
+    margin: 0 auto (20rem)/75 auto;
+    height: (1rem)/75;
+    background: #1f2144;
+  }
+  .sameStyle{
+    width: 90%;
+    margin: 0 auto;
+    .title{
+      margin-top: (42rem)/75;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .box{
+        background: #314efc;
+        width: (8rem)/75;
+        height: (34rem)/75;
+      }
+      .word{
+        margin-left: (20rem)/75;
+        color: #c4c4ce;
+      }
+    }
+    .secTitle{
+      margin-top: (50rem)/75;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .box{
+        width: (50rem)/75;
+        height: (2rem)/75;
+        background: #818cf9;
+      }
+      .word{
+        margin-left: (6rem)/75;
+        color: #818cf9;
+      }
+    }
+    .content{
+      margin-top: (45rem)/75;
+      color:#898a9e;
+      .points{
+        font-size: 13px;
+        color: #d1d1d9;
+        margin-top: (24rem)/75;
+      }
+      .normal{
+        margin-top: (25rem)/75;
+        color:#898a9e;
+      }
+      .other{
+        margin-top: (25rem)/75;
+        color: #e2e2e7;
+      }
+      .prize{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style: none;
+        -webkit-margin-before: 0;
+        -webkit-margin-after:0;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        -webkit-padding-start: 0;
+        li{
+          list-style: none;
+          width: 50%;
+          p{
+            color: #999aab;
+            margin-top: (12rem)/75;
+            -webkit-margin-before: 0;
+            -webkit-margin-after: 0;
+            -webkit-margin-start: 0;
+            -webkit-margin-end: 0;
+          }
+        }
+      }
+    }
+  }
+
+  footer{
+    padding: (100rem)/75 0;
+    width: 90%;
+    margin: 0 auto;
+    color: #e8e8ec;
+  }
+}
